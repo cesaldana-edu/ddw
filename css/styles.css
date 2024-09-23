@@ -31,6 +31,9 @@ body {
     color:#fff;
 }
 
+.pink { color: #F24976; }
+.purple { color: #3B48BE; }
+
 /* HEADER */
 header { 
     color: #333; 
@@ -64,6 +67,7 @@ nav ul li a:hover { color: #F24976; }
 /* CONTENT */
 main {min-height: 600px;}
 section { margin: 2em 1em; }
+.pre-title { text-transform: uppercase; font-weight: 500; margin-bottom: .5em;}
 .title { font-size: 2em; line-height: 1.2em; font-weight: 800; font-family: "Poppins", sans-serif; margin-bottom: .5em; }
 .description { margin-bottom: 1em 0; }
 .right { margin-top: 2em; }
@@ -98,7 +102,7 @@ footer .social i { margin-left: 1em; }
     /* FOOTER */
     footer { flex-flow: row; justify-content: space-between; }
     footer .logo-uade { height: 1.6em; margin: 0; max-width: unset; }
-
+    footer .rights-text { font-size: .7em; }
 }
 
 @media only screen and (min-width: 1200px) {
